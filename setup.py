@@ -12,6 +12,10 @@ def parse_requirements(filename):
 
 reqs = parse_requirements('requirements.txt')
 
+project_urls = {
+  'Link 1': 'https://mygreatsite.com',
+  'Link 2': 'https://anothersite.com'
+}
 
 setup(name='phpbb-topic-post',
       version='0.9',
@@ -23,5 +27,6 @@ setup(name='phpbb-topic-post',
       packages=['madyel', 'madyel.config'],
       install_requires=reqs,
       long_description=long_description,
-      long_description_content_type='text/markdown'
+      long_description_content_type='text/markdown',
+      project_urls=project_urls
       )
