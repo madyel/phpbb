@@ -4,8 +4,9 @@ from sshtunnel import SSHTunnelForwarder
 import time
 import calendar
 import hashlib
-from madyel.config import configure as conf
 import logging
+from madyel.config import configure as conf
+
 
 __author__ = "madyel"
 

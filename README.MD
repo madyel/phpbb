@@ -1,13 +1,13 @@
 Install:
 
 ```shell
-pip install PhpBB-Utility
+pip install phpbb-topic-post
 ```
 
 Example:
 
 ```python
-from madyel import PhpBB
+from madyel.phpbb import PhpBB
 
 if __name__ == '__main__':
     config = {

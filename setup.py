@@ -13,14 +13,14 @@ def parse_requirements(filename):
 reqs = parse_requirements('requirements.txt')
 
 
-setup(name='phpbb-forum',
-      version='0.6',
+setup(name='phpbb-topic-post',
+      version='0.9',
       description='PhpBB add topic and post',
       url='https://github.com/madyel/phpbb',
       author='MaDyEl',
       author_email='madyel83@tutanota.com',
       license='MIT',
-      packages=['madyel'],
+      packages=['madyel', 'madyel.config'],
       install_requires=reqs,
       long_description=long_description,
       long_description_content_type='text/markdown'
