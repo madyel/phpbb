@@ -1,6 +1,5 @@
 from setuptools import setup
 
-# read the contents of your README file
 from os import path
 this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, 'README.MD'), encoding='utf-8') as f:
@@ -14,14 +13,14 @@ def parse_requirements(filename):
 reqs = parse_requirements('requirements.txt')
 
 
-setup(name='PhpBB Utility',
-      version='0.3',
+setup(name='phpbb-forum',
+      version='0.6',
       description='PhpBB add topic and post',
       url='https://github.com/madyel/phpbb',
       author='MaDyEl',
       author_email='madyel83@tutanota.com',
       license='MIT',
-      packages=['extract'],
+      packages=['madyel'],
       install_requires=reqs,
       long_description=long_description,
       long_description_content_type='text/markdown'

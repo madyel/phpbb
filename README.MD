@@ -1,3 +1,9 @@
+Install:
+
+```shell
+pip install PhpBB-Utility
+```
+
 Example:
 
 ```python
