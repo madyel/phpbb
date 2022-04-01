@@ -1,3 +1,6 @@
+
+![GitHub last commit](https://img.shields.io/github/last-commit/madyel/phpbb) ![GitHub](https://img.shields.io/github/license/madyel/phpbb) ![GitHub repo size](https://img.shields.io/github/repo-size/madyel/phpbb)
+
 Install:
 
 ```shell
